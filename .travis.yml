@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "node"
 script:
-  - "npm start"
+  - "npm run build"
 # Auto-deploy to the site branch on GitHub
 # https://docs.travis-ci.com/user/deployment/pages/
 # Alternative: https://github.com/jkeylu/deploy-hexo-site-by-travis-ci/blob/master/_travis.yml

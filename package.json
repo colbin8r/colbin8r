@@ -18,7 +18,8 @@
     "hexo-server": "^0.2.0"
   },
   "scripts": {
-    "start": "hexo generate",
+    "start": "hexo server --watch",
+    "build": "hexo generate",
     "deploy": "hexo deploy"
   }
 }
