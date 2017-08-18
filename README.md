@@ -24,7 +24,7 @@ The continuous deployment process is only 3 primary steps:
 2. Travis CI uses Hexo to generate a static site based on the `master` branch and pushes it to [`site` on GitHub](https://github.com/colbin8r/colbin8r/tree/site).
 3. [Netlify](https://www.netlify.com/), the host, watches the `site` branch and deploys the static site.
 
-Travis CI is set to cancel currently running builds when a new push is detected, so it's okay to push several times in short succession.
+Travis CI is set to cancel currently queued builds when a new push is detected (although running builds will still continue), so it's okay to push several times in short succession.
 
 Although deployment is automated, it's possible to generate a manual deployment with `npm run deploy`. This could be useful if, for instance, you wanted to deploy a branch other than `master` or deploy uncommitted code. The continuous deployment system can also be paused via one of two ways:
 
