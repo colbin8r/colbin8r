@@ -3,3 +3,16 @@ node_js:
   - "node"
 script:
   - "npm start"
+# Auto-deploy to the site branch on GitHub
+# https://docs.travis-ci.com/user/deployment/pages/
+# Alternative: https://github.com/jkeylu/deploy-hexo-site-by-travis-ci/blob/master/_travis.yml
+deploy:
+  provider: pages
+  skip_cleanup: true
+  target_branch: site
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  name: $GITHUB_NAME
+  email: $GITHUB_EMAIL
+  local_dir: public # `hexo generate` builds to this directory
+  on:
+    branch: master

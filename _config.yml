@@ -80,6 +80,8 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+# Travis CI automatically deploys to the site branch every commit
+# This is to trigger a manual deployment
 deploy:
   type: git
   repo: https://github.com/colbin8r/colbin8r
