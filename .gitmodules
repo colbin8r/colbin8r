@@ -1,0 +1,3 @@
+[submodule "themes/colbin8r-theme"]
+	path = themes/colbin8r-theme
+	url = https://github.com/colbin8r/colbin8r-theme.git

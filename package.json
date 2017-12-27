@@ -2,11 +2,21 @@
   "name": "colbin8r",
   "version": "0.0.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colbin8r/colbin8r/"
+  },
+  "authors": [
+    {
+      "name": "Colby Rogness"
+    }
+  ],
   "hexo": {
     "version": "3.3.8"
   },
   "dependencies": {
     "hexo": "^3.2.0",
+    "hexo-browsersync": "^0.2.0",
     "hexo-deployer-git": "^0.3.1",
     "hexo-generator-archive": "^0.1.4",
     "hexo-generator-category": "^0.1.3",

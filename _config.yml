@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: colbin8r
+title: Colby Rogness
 subtitle:
 description:
 author: Colby Rogness
@@ -76,7 +76,17 @@ pagination_dir: p
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: showoff
+
+# BrowserSync
+## https://github.com/hexojs/hexo-browsersync
+browsersync:
+  logLevel: "warn"
+  ghostMode:
+    scroll: true
+  files:
+    - "source/**/*"
+    - "themes/source/**/*"
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
