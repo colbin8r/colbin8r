@@ -30,3 +30,11 @@ Although deployment is automated, it's possible to generate a manual deployment 
 
 1. Pause Travis CI watching `master`. You then use `npm deploy` to run a manual deployment to `site`. *Best when deploying code not on `master`.*
 2. Pause Netlify watching `site`. You then use Netlify to trigger a manual deployment from `site`. *Best when deploying code on `master`, but maybe not at the time it was pushed to `master`.*
+
+## Colors
+
+Red: #E63946
+White (off-white): #F1FAEE
+Light Blue: #A8DADC
+Blue: #457B9D
+Dark Blue: #1D3557

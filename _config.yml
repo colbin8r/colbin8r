@@ -76,7 +76,7 @@ pagination_dir: p
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: showoff
+theme: colbin8r-theme
 
 # BrowserSync
 ## https://github.com/hexojs/hexo-browsersync
@@ -84,14 +84,21 @@ browsersync:
   logLevel: "warn"
   ghostMode:
     scroll: true
-  files:
-    - "source/**/*"
-    - "themes/source/**/*"
+  # files:
+  #   - "source/**/*"
+  #   - "themes/source/**/*"
+
+# SCSS Renderer
+## https://github.com/knksmith57/hexo-renderer-sass
+node_sass:
+  outputStyle: nested
+  precision: 5
+  sourceComments: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-# Travis CI automatically deploys to the site branch every commit
-# This is to trigger a manual deployment
+## Travis CI automatically deploys to the site branch every commit
+## This is to trigger a manual deployment
 deploy:
   type: git
   repo: https://github.com/colbin8r/colbin8r
