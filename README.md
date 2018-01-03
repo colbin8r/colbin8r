@@ -33,8 +33,8 @@ Although deployment is automated, it's possible to generate a manual deployment 
 
 ## Colors
 
-Red: #E63946
+Red: #E63946 (Accent)
 White (off-white): #F1FAEE
 Light Blue: #A8DADC
 Blue: #457B9D
-Dark Blue: #1D3557
+Dark Blue: #1D3557 (Primary)
