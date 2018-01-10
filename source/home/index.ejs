@@ -2,73 +2,77 @@
 "date": "2013/7/13 20:46:25"
 ;;;
 
-<header class="header">
-	<nav class="level">
-		<!-- Left side -->
-		<div class="level-left">
-			<div class="level-item">
-				<div class="wordmark">
-					CR
+<main class="hero is-fullheight">
+	
+	<header class="hero-head header">
+		<div class="level is-mobile">
+			<div class="level-left">
+				<div class="level-item">
+					<div class="wordmark">
+						CR
+					</div>
 				</div>
 			</div>
+
+			<div class="level-right">
+				<nav class="menu-toggle">
+					<button class="hamburger hamburger--squeeze" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+						<input type="checkbox" />
+					</button>
+					<section id="menu">
+						<a href="#">Home</a>
+						<a href="#">About</a>
+						<a href="#">Info</a>
+						<a href="#">Contact</a>
+						<a href="https://erikterwan.com/" target="_blank">Show me more</a>
+					</section>
+				</nav>
 			</div>
 		</div>
+	</header>
 
-		<!-- Right side -->
-		<div class="level-right">
-			<button class="hamburger hamburger--squeeze" type="button">
-				<span class="hamburger-box">
-					<span class="hamburger-inner"></span>
-				</span>
-			</button>
-		</div>
-	</nav>
-</header>
-
-<section class="hero">
-	<div class="hero-body">
-		<div class="container has-text-centered">
-			<h1 class="title is-1 has-text-weight-extra-bold">
+	<div class="hero-center">
+		<section class="container is-fluid has-text-centered">
+			<h1 class="title is-1 is-size-3-touch has-text-weight-extra-bold">
 				Hi, I'm Colby.
 			</h1>
-			<h2 class="title is-3">
+			<h2 class="title is-3 is-size-5-touch">
 				I develop awesome software for the web.
 			</h2>
-		</div>
-	</div>
-</section>
-
-<section class="hero">
-	<div class="hero-body">
-		<div class="columns is-centered">
-			<div class="column is-half">
-				<div class="console">
-					<span class="console__prompt">&dollar;<!-- &#10095; --></span>
-					<span class="console__input">npm install --save react</span>
+		</section>
+		<section class="margin-top">
+			<div class="columns is-centered is-gapless">
+				<div class="column is-half">
+					<div class="console">
+						<span class="console__prompt">&dollar;<!-- &#10095; --></span>
+						<span class="console__input">npm install --save react</span>
+					</div>
 				</div>
 			</div>
-		</div>
+		</section>
+		<section class="section">
+			<nav class="columns is-centered is-size-5 is-lowercase has-text-centered">
+				<div class="column is-1">
+					<a class="link--primary" href="#">Work</a>
+				</div>
+				<div class="column is-1">
+					<a class="link--primary" href="#">Thoughts</a>
+				</div>
+				<div class="column is-1">
+					<a class="link--primary" href="#">Code</a>
+				</div>
+				<div class="column is-1">
+					<a class="link--primary" href="#">Connect</a>
+				</div>
+			</nav>
+		</section>
 	</div>
-</section>
 
-<section class="hero">
-	<div class="hero-body">
-		<nav class="columns is-centered">
-			<div class="column is-2 has-text-centered"><a href="#">Work</a></div>
-			<div class="column is-2 has-text-centered"><a href="#">Thoughts</a></div>
-			<div class="column is-2 has-text-centered"><a href="#">Code</a></div>
-			<div class="column is-2 has-text-centered"><a href="#">Connect</a></div>
-		</nav>
+	<div class="hero-foot">
+		<!-- noop -->		
 	</div>
-</section>
 
-<!-- <section class="section">
-	<div class="container">
-		<h1 class="title">
-			Hello World
-		</h1>
-		<p class="subtitle">
-			My first website with <strong>Bulma</strong>!
-		</p>
-	</div>
-</section> -->
+</main>

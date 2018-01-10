@@ -29,8 +29,9 @@
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-scss": "^1.1.0",
     "hexo-renderer-stylus": "^0.3.3",
-    "hexo-server": "^0.2.0",
-    "modularscale-sass": "^3.0.4"
+    "hexo-server": "^0.3.1",
+    "modularscale-sass": "^3.0.4",
+    "slideout": "^1.0.1"
   },
   "scripts": {
     "start": "cross-env NODE_ENV=development hexo server --watch",
