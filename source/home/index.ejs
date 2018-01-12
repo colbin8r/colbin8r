@@ -2,6 +2,8 @@
 "date": "2013/7/13 20:46:25"
 ;;;
 
+<div class="curtain curtain--hidden"></div>
+
 <main class="hero is-fullheight">
 	
 	<header class="hero-head header">
@@ -15,19 +17,27 @@
 			</div>
 
 			<div class="level-right">
-				<nav class="menu-toggle">
-					<button class="hamburger hamburger--squeeze" type="button">
+				<nav class="menu menu--closed">
+					<button class="hamburger hamburger--squeeze menu__toggle" type="button">
 						<span class="hamburger-box">
 							<span class="hamburger-inner"></span>
 						</span>
-						<input type="checkbox" />
 					</button>
-					<section id="menu">
-						<a href="#">Home</a>
-						<a href="#">About</a>
-						<a href="#">Info</a>
-						<a href="#">Contact</a>
-						<a href="https://erikterwan.com/" target="_blank">Show me more</a>
+					<section id="menu" class="menu__content">
+						<ul class="menu__content__primary">
+							<li><a href="">Home</a></li>
+							<li><a href="">Work</a></li>
+							<li><a href="">Blog</a></li>
+							<li><a href="">Contact</a></li>
+						</ul>
+						<ul class="menu__content__secondary">
+							<li><a href="">About</a></li>
+							<li><a href="">Colonograph</a></li>
+						</ul>
+						<ul class="menu__content__social">
+							<li><a href="" class="icon"><i class="fab fa-github"></i></a></li>
+							<li><a href="" class="icon"><i class="fab fa-linkedin"></i></a></li>
+						</ul>
 					</section>
 				</nav>
 			</div>
@@ -59,13 +69,13 @@
 					<a class="link--primary" href="#">Work</a>
 				</div>
 				<div class="column is-1">
-					<a class="link--primary" href="#">Thoughts</a>
+					<a class="link--primary" href="#">Blog</a>
 				</div>
 				<div class="column is-1">
 					<a class="link--primary" href="#">Code</a>
 				</div>
 				<div class="column is-1">
-					<a class="link--primary" href="#">Connect</a>
+					<a class="link--primary" href="#">Contact</a>
 				</div>
 			</nav>
 		</section>
@@ -76,3 +86,4 @@
 	</div>
 
 </main>
+
